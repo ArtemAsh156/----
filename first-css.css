@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;}
+h1, h2 {
+    color:rgb(128, 86, 34);
+    
+}
+p {
+    color:rgb(237, 182, 98)
+}
+p>i{
+    color:rgb(202, 162, 75)
+}
