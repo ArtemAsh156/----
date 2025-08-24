@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Списки, таблицы и формы</title>
+        <link href="index.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Поэтические чтения</h1>
+        <p>Мы проведём ряд встреч и симпозиумов в течение года.</p>
+        <p>Вход на следующие мероприятия для участников свободны:</p>
+        <ul>
+            <li>Поэтическая перпесктива</li>
+            <li>Вечер поэзии в честь Д.Р. Пушкина А.С.</li>
+            <li>Поэзия и поэты серебрянного века</li>
+        </ul>
+        <table>
+            <tr class="head">
+                <th></th>
+                <th>Москва</th>
+                <th>Санкт-Петербург</th>
+                <th>Екатеринбург</th>
+            </tr>
+            <tr>
+                <th>Поэтическая перпесктива</th>
+                <td> сб, 4 февраля 2012 11:00-14:00</td>
+                <td>сб, 3 марта 2012 11:00-14:00</td>
+                <td>сб, 17 марта 2012 11:00-14:00</td>
+            </tr>
+            <tr>
+                <th>Вечер поэзии в честь Д.Р. Пушкина А.С.</th>
+                <td>сб, 7 апреля 2012 11:00-13:00</td>
+                <td>сб, 5 мая 2012 11:00-13:00</td>
+                <td>сб, 19 мая 2012 11:00-13:00</td>
+            </tr>
+            <tr>
+                <th>Поэзия и поэты серебрянного века</th>
+                <td>сб, 9 июня 2012 11:00-14:00</td>
+                <td>сб, 7 июля 2012 11:00-14:00</td>
+                <td>сб, 21 июля 2012 11:00-14:00</td>
+            </tr>
+            <tr>
+                <th>Поэты 21 века</th>
+                <td>сб, 4 августа 2012 11:00-16:00</td>
+                <td>сб, 8 сентября 2012 11:00-16:00</td>
+                <td>сб, 15 сентября 2012 11:00-16:00</td>
+            </tr>
+        </table>
+        <form action="http://www.exaple.com/form.php">
+            <fieldset>
+                <legend>Зарегистрируйтесь</legend>
+                <p><label class="title" for="name">Ваше имя:</label>
+                    <input type="text"name="name" id="name"><br />
+                    <label class="title" for="email">Ваш email:</label>
+                    <input type="text" name="email" id="email"></p>
+                <p><label for="location" class="title">Ближайший центр</label>
+                    <select>
+                        <option>Москва</option>
+                        <option>Санкт-Петербург</option>
+                        <option>Екатеринбург</option>
+                    </select></p>
+                <p><span class="title">Являетесь участником?
+                    <label><input type="radio" name="member" value="yes">Да</label>
+                    <label><input type="radio" name="member" value="no">Нет</label>
+                </span></p>
+            </fieldset>
+            <div class="submit"><input type="submit" value="Отправить"></div>
+
+        </form>
+    </body>
+
+</html>
